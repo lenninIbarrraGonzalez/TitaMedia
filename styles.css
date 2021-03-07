@@ -1,0 +1,26 @@
+/*
+1. Posicionamiento
+2. Modelo de caja
+3. Tipografia
+4. Visuales
+5. Otros
+*/
+
+:root {
+  /*colores*/
+  color-primary: #f16876;
+  color-secondary: #fff;
+  color-gray-darak: #f1f3f4;
+  color-gray-light: #eff4f7;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Montserrat", sans-serif;
+}
