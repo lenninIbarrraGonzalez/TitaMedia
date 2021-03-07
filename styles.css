@@ -8,10 +8,10 @@
 
 :root {
   /*colores*/
-  color-primary: #f16876;
-  color-secondary: #fff;
-  color-gray-darak: #f1f3f4;
-  color-gray-light: #eff4f7;
+  --color-primary: #f16876;
+  --color-secondary: #fff;
+  --color-gray-darak: #f1f3f4;
+  --color-gray-light: #eff4f7;
 }
 
 * {
@@ -23,4 +23,76 @@
 html {
   font-size: 62.5%;
   font-family: "Montserrat", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  min-width: 320px;
+  height: 80px;
+  padding: 10px 0;
+}
+
+.header--logo {
+  width: 150px;
+  height: 60px;
+  color: var(--color-primary);
+}
+
+.header--menu {
+  display: flex;
+}
+
+.header--menu span {
+  width: 13px;
+  height: 8px;
+  background-image: url('./assets/icons/menu-hamburguesa.svg');
+}
+
+.banner {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  min-width: 320px;
+  height: 280px;
+  text-align: center;
+  background-color: var(--color-primary);
+}
+
+.banner h1 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 2.4rem;
+  margin-bottom: 30px;
+  color: var(--color-secondary);
+}
+
+.banner p {
+  margin-top: 25px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: var(--color-secondary);
+}
+
+.banner .banner--button {
+  position: absolute;
+  top: 220px;
+  left: calc(50% - 115px);
+  margin-top: 35px;
+  padding: 15px;
+  width: 230px;
+  height: 48px;
+  background-color: var(--color-secondary);
+  border: 1px solid var(--color-gray-light);
+  box-shadow: 6px 9px 12px -2px rgba(0, 0, 0, 0.5);
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--color-primary);
 }
