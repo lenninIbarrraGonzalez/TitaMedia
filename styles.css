@@ -10,7 +10,7 @@
   /*colores*/
   --color-primary: #f16876;
   --color-secondary: #fff;
-  --color-gray-darak: #f1f3f4;
+  --color-gray-darak: #a3a6a7;
   --color-gray-light: #eff4f7;
 }
 
@@ -46,8 +46,8 @@ header {
 }
 
 .header--menu span {
-  width: 13px;
-  height: 8px;
+  width: 15px;
+  height: 15px;
   background-image: url("./assets/icons/menu-hamburguesa.svg");
 }
 
@@ -97,4 +97,97 @@ header {
   font-weight: bold;
   text-decoration: none;
   color: var(--color-primary);
+}
+
+main {
+  width: 100%;
+  height: auto;
+}
+
+.main-gallery-container {
+  width: 100%;
+  height: auto;
+  padding-top: 50px;
+}
+
+.main-gallery-container--optionsDisplay {
+  display: flex;
+  justify-content: center;
+}
+
+.main-gallery-container--optionsDisplay span:nth-child(1) {
+  width: 15px;
+  height: 15px;
+  margin-right: 20px;
+  background-image: url("./assets/icons/menu.svg");
+}
+
+.main-gallery-container--optionsDisplay span:nth-child(2) {
+  width: 15px;
+  height: 15px;
+  background-image: url("./assets/icons/menu_line.svg");
+}
+
+.main-gallery-container--optionsFilter {
+  display: flex;
+  justify-content: center;
+  margin: 30px 20px 30px 20px;
+}
+
+.main-gallery-container--optionsFilter button {
+  border: none;
+  padding: 3px 8px;
+  font-size: 1.4rem;
+  color: var(--color-gray-darak);
+  background-color: var(--color-secondary);
+  margin-left: 4px;
+}
+
+.main-gallery-container--optionsFilter button:nth-child(1) {
+  color: var(--color-secondary);
+  background-color: var(--color-primary);
+}
+
+.main-grid-container {
+  display: grid;
+  /* con esto no necesito @media Query para las columnas*/
+  grid-template-columns: repeat(auto-fill, minmax(100px, 400px));
+  grid-gap: 5px;
+  justify-content: center;
+}
+
+.item {
+  /* border-radius: 40px; */
+  padding: 10px;
+  background: #f2f2f2;
+}
+.item img {
+  /* max-width: 100%; */
+  /* se resuelve el problema de un borde gris  */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.level-1 {
+  grid-row-end: span 3;
+}
+.level-2 {
+  grid-row-end: span 2;
+}
+.level-3 {
+  grid-row-end: span 1;
+}
+
+.main-grid-container--button {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
+}
+
+.main-grid-container--button button {
+  border: none;
+  padding: 3px 8px;
+  font-size: 1.4rem;
+  color: var(--color-secondary);
+  background-color: var(--color-primary);
 }
