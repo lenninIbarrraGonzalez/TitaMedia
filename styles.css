@@ -46,8 +46,8 @@ header {
 }
 
 .header--menu span {
-  width: 13px;
-  height: 8px;
+  width: 15px;
+  height: 15px;
   background-image: url("./assets/icons/menu-hamburguesa.svg");
 }
 
@@ -97,4 +97,34 @@ header {
   font-weight: bold;
   text-decoration: none;
   color: var(--color-primary);
+}
+
+main {
+  width: 100%;
+  height: auto;
+}
+
+.main-gallery-container {
+  width: 100%;
+  height: auto;
+  padding-top: 50px;
+}
+
+.main-gallery-container--optionsDisplay {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.main-gallery-container--optionsDisplay span:nth-child(1) {
+  width: 15px;
+  height: 15px;
+  margin-right: 20px;
+  background-image: url("./assets/icons/menu.svg");
+}
+
+.main-gallery-container--optionsDisplay span:nth-child(2) {
+  width: 15px;
+  height: 15px;
+  background-image: url("./assets/icons/menu_line.svg");
 }
