@@ -48,7 +48,7 @@ header {
 .header--menu span {
   width: 13px;
   height: 8px;
-  background-image: url('./assets/icons/menu-hamburguesa.svg');
+  background-image: url("./assets/icons/menu-hamburguesa.svg");
 }
 
 .banner {
@@ -68,12 +68,14 @@ header {
   font-weight: bold;
   text-transform: uppercase;
   line-height: 2.4rem;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   color: var(--color-secondary);
 }
 
 .banner p {
-  margin-top: 25px;
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
   font-size: 1.4rem;
   font-weight: 500;
   line-height: 1.8rem;
