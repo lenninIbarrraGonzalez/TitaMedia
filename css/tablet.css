@@ -1,0 +1,7 @@
+.header--menu {
+  display: none;
+}
+
+.header--menu-options ul {
+  display: flex;
+}
