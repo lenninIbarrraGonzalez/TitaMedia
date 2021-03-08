@@ -260,6 +260,32 @@ footer {
   filter: opacity(0.9);
 }
 
+/*menu */
+
+.header--menu-options ul {
+  display: none;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  list-style: none;
+}
+
+.header--menu-options li {
+  margin-right: 20px;
+  padding: 8px 30px;
+  color: var(--color-gray-darak);
+}
+
+.header--menu-options li:nth-child(1) {
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+}
+
+.header--menu-options a {
+  text-decoration: none;
+  color: var(--just-white);
+}
+
 /*grilla */
 
 /* .container {

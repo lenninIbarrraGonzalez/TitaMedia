@@ -101,3 +101,7 @@
 //   totalResults = json.total;
 //   resultStats.textContent = `About ${totalResults} results found`;
 // };
+
+fetch('https://picsum.photos/230/128.jpg')
+  .then(respuesta => respuesta.json())
+  .then(respuesta => console.log(respuesta))
