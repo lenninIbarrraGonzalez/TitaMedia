@@ -1,3 +1,28 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // const form = document.querySelector('.js-form');
 // form.addEventListener('submit', handleSubmit);
 // const nextBtn = document.querySelector('.js-next');
@@ -102,6 +127,3 @@
 //   resultStats.textContent = `About ${totalResults} results found`;
 // };
 
-fetch('https://picsum.photos/230/128.jpg')
-  .then(respuesta => respuesta.json())
-  .then(respuesta => console.log(respuesta))
