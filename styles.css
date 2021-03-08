@@ -186,8 +186,65 @@ main {
 
 .main-grid-container--button button {
   border: none;
-  padding: 3px 8px;
+  padding: 10px 35px;
   font-size: 1.4rem;
   color: var(--color-secondary);
   background-color: var(--color-primary);
+  letter-spacing: 0.3rem;
+}
+
+/*Footer*/
+
+footer {
+  height: 90px;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.footer--copyrigth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+  color: var(--color-gray-darak);
+  letter-spacing: 0.3rem;
+}
+
+.footer--copyrigth a {
+  text-decoration: none;
+  color: var(--color-primary);
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.footer--redes {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.footer--redes span {
+  width: 15px;
+  height: 15px;
+  margin-left: 25px;
+}
+.footer--redes span:nth-child(1) {
+  background-image: url("./assets/icons/facebook-logo.svg");
+}
+
+.footer--redes span:nth-child(2) {
+  background-image: url("./assets/icons/facebook-logo.svg");
+}
+
+.footer--redes span:nth-child(3) {
+  background-image: url("./assets/icons/dribbble-logo.svg");
+}
+
+.footer--redes span:nth-child(4) {
+  background-image: url("./assets/icons/facebook-logo.svg");
+}
+
+.footer--redes span:nth-child(5) {
+  background-image: url("./assets/icons/youtube-logo.svg");
 }
