@@ -228,13 +228,16 @@ footer {
   width: 15px;
   height: 15px;
   margin-left: 25px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .footer--redes span:nth-child(1) {
   background-image: url("./assets/icons/facebook-logo.svg");
 }
 
 .footer--redes span:nth-child(2) {
-  background-image: url("./assets/icons/facebook-logo.svg");
+  background-image: url("./assets/icons/twitter-logo.svg");
 }
 
 .footer--redes span:nth-child(3) {
@@ -242,7 +245,7 @@ footer {
 }
 
 .footer--redes span:nth-child(4) {
-  background-image: url("./assets/icons/facebook-logo.svg");
+  background-image: url("./assets/icons/google-plus-logo.svg");
 }
 
 .footer--redes span:nth-child(5) {
