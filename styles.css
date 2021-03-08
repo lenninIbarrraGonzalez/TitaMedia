@@ -78,6 +78,7 @@ header {
   margin-right: 20px;
   font-size: 1.4rem;
   font-weight: 500;
+  font-family: "Questrial";
   line-height: 1.8rem;
   color: var(--color-secondary);
 }
@@ -94,8 +95,9 @@ header {
   border: 1px solid var(--color-gray-light);
   box-shadow: 6px 9px 12px -2px rgba(0, 0, 0, 0.5);
   font-size: 1.4rem;
-  font-weight: bold;
+  font-weight: 400;
   text-decoration: none;
+  text-transform: uppercase;
   color: var(--color-primary);
 }
 
@@ -137,10 +139,11 @@ main {
 .main-gallery-container--optionsFilter button {
   border: none;
   padding: 3px 8px;
+  margin-left: 4px;
   font-size: 1.4rem;
+  font-family: "Questrial";
   color: var(--color-gray-darak);
   background-color: var(--color-secondary);
-  margin-left: 4px;
 }
 
 .main-gallery-container--optionsFilter button:nth-child(1) {
@@ -188,6 +191,7 @@ main {
   border: none;
   padding: 10px 35px;
   font-size: 1.4rem;
+  font-weight: 300;
   color: var(--color-secondary);
   background-color: var(--color-primary);
   letter-spacing: 0.3rem;
@@ -207,6 +211,8 @@ footer {
   justify-content: center;
   align-items: center;
   font-size: 1.4rem;
+  font-family: "Questrial";
+  font-weight: 200;
   color: var(--color-gray-darak);
   letter-spacing: 0.3rem;
 }
