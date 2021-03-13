@@ -7,6 +7,7 @@ _Descarga los archivos_
 
 ## Despliegue 📦
 - Ejecutar el archivo index.html
+- https://lenninibarrragonzalez.github.io/TitaMedia/
 
 
 ## Tecnlogias 🔧
